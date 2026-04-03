@@ -1,14 +1,13 @@
 # Community Contributions
 
-## Hosting First Flight at Code Hawks [Nft Dealers]
-- developing the protocol for audit
-- judging
-- reviewing appeals
-- finalizing report
+## Hosting First Flight at Code Hawks [Nft Dealers](https://codehawks.cyfrin.io/c/2026-03-nft-dealers)
 
-[FF Page](https://codehawks.cyfrin.io/c/2026-03-nft-dealers)
-[Report] 
+- ### **Developing the protocol for audit** <br>
+- ### **judging** <br>
+- ### **reviewing appeals** <br>
+- ### **finalizing report**
 
+### [Full Report](https://github.com/nikolov9996/Web3-Portfolio/blob/main/NFT-Dealers-Report.md)
 
 # Audits
 
