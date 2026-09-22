@@ -8,9 +8,10 @@ Now I focus on DeFi and smart contract security, helping protocols improve their
 
 ## Public Audit Contests
 
-| Project                                                                                                    |   Date   |  Ranking   | Findings |
-| :--------------------------------------------------------------------------------------------------------- | :------: | :--------: | :------: |
-| [Revert Finance - StableSwap Hooks](https://cantina.xyz/competitions/e55ee7b9-6c99-42f8-8338-39f3dd134ef3) | May 2026 | 47th / 773 | 1H / 1M  |
+| Project                                                                                                      |   Date   |  Ranking   | Findings |
+| :----------------------------------------------------------------------------------------------------------- | :------: | :--------: | :------: |
+| [TipRun Smart Contract Audit Contest](https://hackenproof.com/audit-programs/tiprun-smart-contract-audit-contest) | Jun 2026 | 86th / 126 |    1C    |
+| [Revert Finance - StableSwap Hooks](https://cantina.xyz/competitions/e55ee7b9-6c99-42f8-8338-39f3dd134ef3)   | May 2026 | 47th / 773 | 1H / 1M  |
 
 ---
 
