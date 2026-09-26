@@ -131,6 +131,15 @@
       font-weight: 600;
     }
 
+    .security-results {
+      margin-top: 1.25rem;
+      padding-left: 0.75rem;
+      border-left: 2px solid var(--matrix-green);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      line-height: 1.6;
+    }
+
     .hero-proof {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -317,7 +326,6 @@
       display: block;
     }
 
-    body[data-track="security"] .hero-proof.track-panel-security,
     body[data-track="developer"] .hero-proof.track-panel-developer {
       display: grid;
     }
@@ -992,28 +1000,13 @@
 
       <h1 class="track-panel track-panel-security">Web3 Security Researcher</h1>
       <div class="value-prop track-panel track-panel-security">
-        <span>I review smart contracts and protocol behavior with a builder's eye for architecture, edge cases,
-          integrations, and failure modes.</span>
-        <span>My public contest work includes a <strong>critical finding</strong> and ranked audit results.</span>
+        <span>I review smart contracts and protocol behavior for broken assumptions, exploitable edge cases,
+          and integration risks.</span>
       </div>
-      <div class="hero-proof track-panel track-panel-security" aria-label="Security profile highlights">
-        <div class="proof-item">
-          <p class="proof-value">1 Critical</p>
-          <p class="proof-label">Public contest finding</p>
-        </div>
-        <div class="proof-item">
-          <p class="proof-value">1 High</p>
-          <p class="proof-label">Public contest finding</p>
-        </div>
-        <div class="proof-item">
-          <p class="proof-value">1 Medium</p>
-          <p class="proof-label">Public contest finding</p>
-        </div>
-        <div class="proof-item">
-          <p class="proof-value">2 Contests</p>
-          <p class="proof-label">Ranked public results</p>
-        </div>
-      </div>
+      <p class="security-results track-panel track-panel-security">2 ranked contests · 3 findings:
+        <strong class="f-c">1 Critical</strong>, <strong class="f-h">1 High</strong>,
+        <strong class="f-m">1 Medium</strong>
+      </p>
 
       <h1 class="track-panel track-panel-developer">Full-Stack Developer</h1>
       <div class="value-prop track-panel track-panel-developer">
@@ -1319,58 +1312,6 @@
         </section>
       </div>
 
-      <section class="section track-panel track-panel-security">
-        <p class="section-label">Builder Mindset Applied To Security</p>
-        <div class="card bridge-card">
-          <div class="card-header">
-            <div>
-              <p class="card-title">Production context makes audits sharper</p>
-              <p class="card-sub">Architecture, maintainability, integrations, and exploitability in one review lens</p>
-            </div>
-          </div>
-          <p class="track-summary">I look at protocols like systems that real users and teams must operate. That means
-            paying attention to economic assumptions, implementation details, admin flows, upgrade paths, edge cases,
-            and the kind of integration risk that appears only after software leaves the happy path.</p>
-        </div>
-      </section>
-
-      <section class="section track-panel track-panel-security">
-        <p class="section-label">Skill Matrix</p>
-        <div class="skill-matrix">
-          <div class="skill-column">
-            <h3>Smart Contract Security</h3>
-            <div class="skill-list">
-              <span class="tag">Solidity</span>
-              <span class="tag">Foundry</span>
-              <span class="tag">DeFi reviews</span>
-              <span class="tag">Exploit reproduction</span>
-              <span class="tag">Audit reports</span>
-            </div>
-          </div>
-          <div class="skill-column">
-            <h3>Full-Stack Engineering</h3>
-            <div class="skill-list">
-              <span class="tag">React</span>
-              <span class="tag">React Native</span>
-              <span class="tag">Next.js</span>
-              <span class="tag">TypeScript</span>
-              <span class="tag">Node.js</span>
-              <span class="tag">PostgreSQL</span>
-              <span class="tag">GraphQL</span>
-            </div>
-          </div>
-          <div class="skill-column">
-            <h3>AI-Native Workflows</h3>
-            <div class="skill-list">
-              <span class="tag">Claude skills</span>
-              <span class="tag">Codex workflows</span>
-              <span class="tag">Specialized agents</span>
-              <span class="tag">Refactoring systems</span>
-              <span class="tag">CI/CD</span>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer class="footer track-panel track-panel-security">
